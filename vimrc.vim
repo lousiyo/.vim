@@ -5,11 +5,6 @@ set nocompatible
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-" 当有termguicolors特性时开启GUI配色
-if has("termguicolors")
-    set termguicolors
-endif
-
 " With a map leader it's possible to do extra key combinations
 let mapleader=","
 
