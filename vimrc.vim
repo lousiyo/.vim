@@ -158,6 +158,7 @@ let g:indent_guides_start_level           = 2  " 从第二层开始可视化显�
 
 "NERDTree
 autocmd vimenter * NERDTree  "自动开启Nerdtree
+autocmd VimEnter * wincmd p  "切换焦点到编辑器
 let g:NERDTreeWinSize = 25 "设定 NERDTree 视窗大小
 let NERDTreeShowBookmarks=1  " 开启Nerdtree时自动显示Bookmarks
 "打开vim时如果没有文件自动打开NERDTree
